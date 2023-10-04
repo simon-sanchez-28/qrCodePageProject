@@ -24,21 +24,40 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 10%;
+    text-align: center;
+    width: 360px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .qrContainer img {
-    width: auto;
+    width: 320px;
     height: auto;
+    border-radius: 2%;
 }
 
 .mainHero {
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #08003a;
+    padding: 1rem 0 1rem 0;
+}
+
+.smallText {
+    font-weight: 100;
+    color: gray;
+    padding-bottom: 2rem;
 }
 
 .attribution {
     font-size: 11px;
+    position: absolute;
+    bottom: 0;
     text-align: center;
+    width: 100%;
+    padding-bottom: 1rem;
 }
 
 .attribution a{
